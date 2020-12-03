@@ -1,7 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import "@ftdr/blueprint-core/assets/css/default-theme.css";
-import { Text,Accordion,AccordionSection,Button,Separator,Checkbox,Input,RadioGroup,TextArea,Dialog} from "@ftdr/blueprint-components-react";
 
 export default function Home() {
   return (
@@ -19,12 +17,7 @@ export default function Home() {
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
-        <Text variant="heading-01" color="accent">Example text</Text>
-            <Accordion mode="single">
-            <AccordionSection label="Section 1">Para 1</AccordionSection>
-            <AccordionSection label="Section 2">Para 1</AccordionSection>
-            <AccordionSection label="Section 3">Para 1</AccordionSection>
-        </Accordion>
+        
        
       </main>
 
